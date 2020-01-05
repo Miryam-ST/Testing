@@ -8,7 +8,7 @@ describe('My First Test', function() {
       var sum=0;
       var A;
 
-      cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+      cy.visit('https://rahulshettyacademy.com/seleniumPractise/#1111/')
       cy.viewport(1200, 850)
       cy.get('.brand').then((element) => {
               cy.log(element.text())
