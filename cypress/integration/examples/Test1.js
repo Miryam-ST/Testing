@@ -1,4 +1,5 @@
-/// <reference types="Cypress" />
+
+/// <reference types="Cypress"/>
 
 describe('My First Test', function() {
     it('My First Test', function() { 
