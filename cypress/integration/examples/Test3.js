@@ -37,7 +37,6 @@ describe('My First Test', function() {
                 cy.log(quantity)  
                 cy.log(price) 
                 cy.log(sum) 
-
                 expect(quantity * price).to.equal(sum)
                 
               
@@ -58,8 +57,8 @@ describe('My First Test', function() {
                
             // })
        
-                 cy.get('.cart-items>.cart-item>.product-info>.product-name').each(($element,index,$list) => {
-                  cy.get($element).then((product1)=>{
+                 cy.get('.cart-items>.cart-item>.product-info>.product-name').each(($element1,index,$list) => {
+                  cy.get($element1).then((product1)=>{
 
                     if(product1.text().includes("Cucumber")){
                       cy.log(product1.text())
