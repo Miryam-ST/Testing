@@ -1,0 +1,16 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MStern",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^3.8.1",
+    "git": "^0.1.5"
+  },
+  "dependencies": {}
+}
