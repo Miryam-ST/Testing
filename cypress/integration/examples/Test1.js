@@ -18,7 +18,7 @@ describe('My First Test', function() {
       cy.get('.reg_link').click()
       cy.get('#ShipCity').type('תל אביב - יפו')
       cy.get('#ShipStreet').type('הדף היומי')
-      cy.get('#ShipAddressNumber').type('6')
+      cy.get('#ShipAddressNumber').type('15')
       cy.wait(1000)
       
       cy.get('#div_registration > a > span').click()
