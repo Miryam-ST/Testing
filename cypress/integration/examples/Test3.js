@@ -60,7 +60,7 @@ describe('My First Test', function() {
                  cy.get('.cart-items>.cart-item>.product-info>.product-name').each(($element1,index,$list) => {
                   cy.get($element1).then((product1)=>{
 
-                    if(product1.text().includes("Cucumber11")){
+                    if(product1.text().includes("Cucumber")){
                       cy.log(product1.text())
                       cy.get('.cart-items>.cart-item>.product-remove').eq(index).click()
                       return false
